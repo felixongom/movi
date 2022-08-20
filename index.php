@@ -5,7 +5,6 @@ if(!$conn){
     echo mysqli_connect_error($conn);
 }
 ?>
-?>
 
 <!DOCTYPE html>
 <html>
