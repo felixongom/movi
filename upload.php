@@ -1,9 +1,10 @@
 <?php
 // connection to databse
-$conn = mysqli_connect('localhost', 'root', '', 'hostapp');
+$conn = mysqli_connect('localhost', 'campusgf_felix', 'OqMEml#@TGlM', 'campusgf_hostapp');
 if(!$conn){
     echo mysqli_connect_error($conn);
 }
+
 
 // collecting form data
 $name = $_REQUEST['name'];
